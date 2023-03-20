@@ -1,0 +1,201 @@
+.showcase {
+  background-image:url("https://thjflix.com/1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  color: #999999;
+  font: 16px "sans-serif";
+  contrast: 7.37;
+  
+}
+.showcase-top {
+  height: 90px;
+  position: relative;
+  z-index: 2;
+}
+.showcase-top img {
+  left: 0px;
+  position: absolute;
+  top: 50%;
+  transform: translate(40%, -50%);
+  width: 140px;
+}
+.btn-rounded {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.btn:hover{
+  background-color: rgb(232, 34, 44);
+}
+.showcase-top a {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translate(-60%, --50%);
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration-line: none;
+}
+.showcase-content h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 74.5px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 0px;
+  max-width: 800px;
+  color: rgb(255, 255, 255);
+}
+h1, h2, h3, h4 {
+  color: rgb: 255, 255, 255;
+}
+* {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+.showcase-content input {
+  bottom: -8vh;
+  font-size: 1rem;
+  height: 3rem;
+  left: 0px;
+  padding-left: 0.5rem;
+  position: absolute;
+  width: 454px;
+}
+.btn {
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+box-shadow: black;
+color: white;
+cursor: pointer;
+display: inline-block;
+font-size: 1rem;
+margin-right: 0.5rem;
+padding-bottom: 0.5rem;
+padding-top: 0.5rem;
+padding-left: 1.2rem;
+padding-right: 1.2rem;
+text-align: center;
+
+}
+.showcase-content {
+  align-items: center
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0px;
+  margin-left: 26%;
+  margin-right: 26%;
+  margin-top: 9rem;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+  margin: 144px, 355.156px;
+}
+.showcase-content .btn-lg {
+  bottom: -8vh;
+  font-size: 1.5rem;
+  height: 36px;
+  padding-bottom:0.5rem;
+  padding-left: 1.2rem;
+  padding-right: 1,2rem;
+  padding-top: 0.5rem;
+  position: absolute;
+  right: 0px;
+  text-transform: uppercase;
+  width: 14rem;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+img {
+  width: 100%;
+}
+.btn:hover {
+  background-color: red;
+}
+h3 {
+  font-weight: lighter;
+  color: white;
+}
+a#btn.btn.btn-lg {
+  color: white;
+  font: 24px "sans-serif";
+  Background: #E50914;
+  Margin: 0px, 8px, 0px, 0px;
+  padding: 8px, 19.2px;
+}
+a.btn.btn-rounded {
+  color: White;
+  font: 16px "sans-serif";
+  background: #e50914;
+  margin: 0px, 8px, 0px, 0px;
+  padding: 8px, 19.2px;
+}
+div.showcase-top {
+  color: #999999;
+  font: 16px "sans-serif";
+}
+h1 {
+  color: white;
+  Font: 64px "sans-serif";
+  margin: 0px, 30px;
+}
+h3 {
+  color: white;
+  font: 25px "sans-serif";
+  Margin: 16px, 0px;
+  
+}
+p {
+  color: white;
+  font: 19px "sans-serif";
+  Margin: 8px, 0px;
+  Padding: 8px, 0px, 16px;
+  
+}
+header.showcase {
+  color: grey;
+  font: 16px "sans-serif";
+
+}
+.card-1 {
+  align-items: center;
+  position: relative;
+  text-align: left;
+}
+h1#thjflixguide. {
+  color: white;
+  font: 48px; "sans-serif"
+  background: black;
+  padding: 16px;
+}
+h4 {
+  color: white;
+  font: 16px "sans-serif";
+  background:black;
+}
+.style-cards h1 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  padding-left: 0px;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
