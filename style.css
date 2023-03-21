@@ -1,5 +1,6 @@
 .showcase {
-  background-image:url("https://thjflix.com/1.jpg");
+  background-image:url("https://external-preview.redd.it/ZwjhfrfONeuNPAa-gtemwTRss1aeDdv4K4CWjV4A4Lo.jpg?auto=webp&s=494d5697d016a50c3a82700c780715e7dd7bcf13");
+  background: rgb(0,0,0,0.7)url(https://external-preview.redd.it/ZwjhfrfONeuNPAa-gtemwTRss1aeDdv4K4CWjV4A4Lo.jpg?auto=webp&s=494d5697d016a50c3a82700c780715e7dd7bcf13);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,6 +10,7 @@
   color: #999999;
   font: 16px "sans-serif";
   contrast: 7.37;
+  background-blend-mode: darken;
   
 }
 .showcase-top {
@@ -188,8 +190,8 @@ h1#thjflixguide. {
   padding: 16px;
 }
 h4 {
-  color: white;
-  font: 16px "sans-serif";
+  color: #D3D3D3;
+  font: 18px "helvetica";
   background:black;
 }
 .style-cards h1 {
@@ -198,4 +200,43 @@ h4 {
   padding-left: 0px;
   padding-right: 1rem;
   padding-top: 1rem;
+}
+.faq {
+  text-align: center;
+}
+.desc-1 {
+  padding-left: 80px;
+}
+.card-1 {
+  align-items: center;
+  display: inline-grid;
+  gird-template-columns: 50% 40%;
+  padding-bottom: 50px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 25px;
+  position: relative;
+  text-align: left;
+}
+h1 {
+  font-size: 6rem;
+  padding-bottom: 1rem;
+  padding-left: 0px;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  color: #D3D3D3;
+  font-weight: bolder;
+}
+.video-1 {
+  grid-column-end: 2;
+  grid-column-start: 2;
+  grid-row-end: 2;
+  gird-row-start: 1;
+  height: 54%;
+  position: relative;
+  width: 100%;
+  z-index: -1;
+}
+img {
+  width:100%;
 }
