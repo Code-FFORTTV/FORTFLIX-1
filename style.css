@@ -186,13 +186,14 @@ header.showcase {
 h1#thjflixguide. {
   color: white;
   font: 48px; "sans-serif"
-  background: black;
   padding: 16px;
+  font-weight: bold;
 }
 h4 {
   color: #D3D3D3;
-  font: 18px "helvetica";
-  background:black;
+  font: 16px "helvetica";
+  padding: 6px;
+  font-weight: bold;
 }
 .style-cards h1 {
   font-size: 3rem;
@@ -219,7 +220,7 @@ h4 {
   text-align: left;
 }
 h1 {
-  font-size: 6rem;
+  font-size: 48px;
   padding-bottom: 1rem;
   padding-left: 0px;
   padding-right: 1rem;
@@ -228,7 +229,7 @@ h1 {
   font-weight: bolder;
 }
 .video-1 {
-  grid-column-end: 2;
+  column: 2;
   grid-column-start: 2;
   grid-row-end: 2;
   gird-row-start: 1;
@@ -238,5 +239,26 @@ h1 {
   z-index: -1;
 }
 img {
-  width:100%;
+  Width: 100%;
+  
+}
+.faq {
+  text-align: center;
+}
+.video-1 {
+  position:relative;
+  height: 37%;
+  width: 37%;
+  z-index: -1;
+  left: 110px;
+  bottom: 448px;
+}
+.img-1 {
+  position:relative;
+  height: 53%;
+  width: 53%;
+  z-index: -2;
+  left: 625px;
+  bottom: 375px;
+  
 }
